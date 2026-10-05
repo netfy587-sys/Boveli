@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Discover More Today</title>
+<style>
+:root{--bg:#fbf1e1;--fg:#2b1d14;--mut:#6b5646;--card:#fffaf1;--ac:#c4552d;--hl:#1c7a78;--ac2:#f2d9b3;--ln:rgba(43,29,20,.16);box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1511;--fg:#f6e9d6;--mut:#bba98f;--card:#261d17;--ac:#f08a5d;--hl:#58c4c0;--ac2:#33261b;--ln:rgba(246,233,214,.18)}}
+:root[data-theme="dark"]{--bg:#1b1511;--fg:#f6e9d6;--mut:#bba98f;--card:#261d17;--ac:#f08a5d;--hl:#58c4c0;--ac2:#33261b;--ln:rgba(246,233,214,.18)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.75 Palatino,"Palatino Linotype",Georgia,serif}
+.w{max-width:1060px;margin:auto;padding:0 20px}
+nav{display:flex;justify-content:space-between;align-items:center;padding:16px 0;flex-wrap:wrap;gap:8px}
+nav b{font:700 28px Palatino,Georgia,serif;color:var(--ac);letter-spacing:.06em}nav a{color:var(--mut);text-decoration:none;font:14px system-ui;margin-left:16px}
+.poster{border:3px solid var(--fg);border-radius:6px;overflow:hidden;background:var(--card)}
+.poster .txt{text-align:center;padding:28px 20px 34px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:32px;align-items:center}
+@media(max-width:720px){.two{grid-template-columns:1fr}}
+h1{font:700 clamp(36px,7vw,60px)/1.05 Palatino,Georgia,serif;margin:0 0 12px;text-transform:uppercase;letter-spacing:.03em}
+h2{font:700 29px/1.2 Palatino,Georgia,serif;margin:0 0 10px}h3{margin:10px 0 4px;font-size:19px}
+p{margin:0 0 14px;color:var(--mut)}
+.poster p{max-width:620px;margin:0 auto 18px}
+.tag{font:700 12px system-ui;letter-spacing:.18em;text-transform:uppercase;color:var(--hl);margin-bottom:8px;display:block}
+.btn{display:inline-block;background:var(--ac);color:#fff;padding:13px 28px;border-radius:4px;font:700 15px system-ui;text-decoration:none;letter-spacing:.04em}
+svg{width:100%;height:auto;display:block}
+section{padding:40px 0}
+.g{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin-top:18px}
+.c{background:var(--card);border:2px solid var(--fg);border-radius:6px;overflow:hidden}
+.c div{padding:2px 16px 16px}
+.st{background:var(--card);border:1px solid var(--ln);border-left:5px solid var(--ac);border-radius:6px;padding:18px}
+.st i{font:700 28px Palatino,Georgia,serif;font-style:normal;color:var(--hl)}
+.band{background:var(--hl);border-radius:8px;padding:44px 26px;text-align:center}
+.band h2,.band p,.band .tag{color:#fff}
+.pills{display:flex;flex-wrap:wrap;gap:10px;justify-content:center;margin-top:16px}
+.pills span{border:1px solid rgba(255,255,255,.7);padding:6px 14px;border-radius:99px;font:13px system-ui;color:#fff}
+.art{max-width:740px;margin:auto}.art h3{margin-top:26px}
+blockquote{margin:22px 0;padding:8px 22px;border-left:4px solid var(--ac);font:italic 21px Palatino,Georgia,serif;color:var(--fg)}
+ul.l{padding-left:20px;color:var(--mut)}ul.l li{margin-bottom:8px}
+details{background:var(--card);border:1px solid var(--ln);border-radius:6px;padding:14px 18px;margin-bottom:12px}
+summary{cursor:pointer;font-weight:700}details p{margin:10px 0 0}
+footer{padding:34px 0;text-align:center;color:var(--mut);font:14px system-ui;border-top:1px solid var(--ln)}
+</style></head><body><div class="w">
+
+<nav><b>BOVELI</b><div><a href="#collection">Places</a><a href="#steps">Steps</a><a href="#inside">Reading</a><a href="#faq">Questions</a></div></nav>
+
+<div class="poster">
+<svg viewBox="0 0 900 280"><rect width="900" height="280" fill="#f2b16b"/><circle cx="450" cy="170" r="90" fill="#f7d98a"/><path d="M0 220L120 130l90 70 100-110 110 120 120-80 110 90 120-100 130 100V280H0Z" fill="#c4552d"/><path d="M0 250L100 190l90 50 120-70 120 80 130-60 120 60 220-70V280H0Z" fill="#1c7a78"/><path d="M60 60q18-14 36 0M130 90q14-10 28 0M740 50q18-14 36 0" stroke="#2b1d14" stroke-width="3" fill="none"/></svg>
+<div class="txt"><span class="tag">Discover More Today</span>
+<h1>Take The Next Step</h1>
+<p>Welcome to Boveli, a friendly reading space about places, journeys and the cultures of the world. Explore New Choices in maps and stories, and Discover New Options for where to read next.</p>
+<a class="btn" href="#collection">Start Exploring Today</a></div></div>
+
+<section id="collection"><span class="tag">Browse Our Collection</span><h2>Something New Awaits</h2>
+<p>Explore Popular Choices among six travel and culture topics, then pick one and read at your own pace.</p>
+<div class="g">
+<div class="c"><svg viewBox="0 0 300 150"><rect width="300" height="150" fill="#f6d7b5"/><g fill="#c4552d"><rect x="30" y="60" width="34" height="80"/><rect x="70" y="30" width="40" height="110"/><rect x="116" y="70" width="30" height="70"/></g><g fill="#1c7a78"><rect x="152" y="45" width="38" height="95"/><rect x="196" y="80" width="30" height="60"/><rect x="232" y="55" width="38" height="85"/></g><g fill="#fff3d6"><rect x="80" y="45" width="8" height="8"/><rect x="94" y="45" width="8" height="8"/><rect x="80" y="62" width="8" height="8"/><rect x="162" y="62" width="8" height="8"/><rect x="242" y="72" width="8" height="8"/></g></svg><div><h3>Great Cities</h3><p>How cities grew and what daily life looks like inside them.</p></div></div>
+<div class="c"><svg viewBox="0 0 300 150"><rect width="300" height="150" fill="#9fd6e0"/><ellipse cx="150" cy="115" rx="110" ry="26" fill="#f6dfa4"/><path d="M150 112V62" stroke="#7a4a22" stroke-width="6"/><path d="M150 62q-30-4-42 14M150 62q30-4 42 14M150 62q-10-22-36-22M150 62q10-22 36-22" stroke="#2f8a4c" stroke-width="7" fill="none" stroke-linecap="round"/></svg><div><h3>Islands</h3><p>Life on small lands surrounded by the sea.</p></div></div>
+<div class="c"><svg viewBox="0 0 300 150"><rect width="300" height="150" fill="#f9d58e"/><circle cx="230" cy="40" r="24" fill="#fff3c4"/><path d="M0 110Q70 70 140 105T300 90V150H0Z" fill="#e2a24f"/><path d="M0 130Q80 100 160 125T300 118V150H0Z" fill="#c4813a"/></svg><div><h3>Deserts</h3><p>How plants, animals and people live in dry places.</p></div></div>
+<div class="c"><svg viewBox="0 0 300 150"><rect width="300" height="150" fill="#e9c8d4"/><path d="M40 40h220M60 40v-12M100 40v-18M140 40v-12M180 40v-18M220 40v-12" stroke="#c4552d" stroke-width="3"/><g><path d="M60 40l-14 22h28Z" fill="#c4552d"/><path d="M110 40l-14 22h28Z" fill="#f4b942"/><path d="M160 40l-14 22h28Z" fill="#1c7a78"/><path d="M210 40l-14 22h28Z" fill="#c4552d"/></g><circle cx="150" cy="110" r="26" fill="#f4b942"/><path d="M150 84v52M124 110h52" stroke="#c4552d" stroke-width="3"/></svg><div><h3>Festivals</h3><p>Colorful celebrations and the stories behind them.</p></div></div>
+<div class="c"><svg viewBox="0 0 300 150"><rect width="300" height="150" fill="#c9dfc2"/><path d="M0 110h300" stroke="#6b5646" stroke-width="5"/><g stroke="#6b5646" stroke-width="3"><path d="M20 104v12M60 104v12M100 104v12M140 104v12M180 104v12M220 104v12M260 104v12"/></g><rect x="70" y="58" width="130" height="38" rx="8" fill="#c4552d"/><rect x="200" y="68" width="40" height="28" rx="6" fill="#1c7a78"/><g fill="#fff3d6"><rect x="82" y="68" width="18" height="14"/><rect x="108" y="68" width="18" height="14"/><rect x="134" y="68" width="18" height="14"/><rect x="160" y="68" width="18" height="14"/></g><circle cx="95" cy="100" r="8" fill="#2b1d14"/><circle cx="185" cy="100" r="8" fill="#2b1d14"/></svg><div><h3>Trains &amp; Journeys</h3><p>The history of railways and famous journeys by land.</p></div></div>
+<div class="c"><svg viewBox="0 0 300 150"><rect width="300" height="150" fill="#f1e2bd"/><circle cx="150" cy="75" r="52" fill="#fff8e6" stroke="#6b5646" stroke-width="4"/><path d="M150 36l12 39-12 39-12-39Z" fill="#c4552d"/><path d="M150 36l-12 39h24Z" fill="#1c7a78"/><circle cx="150" cy="75" r="5" fill="#2b1d14"/></svg><div><h3>Maps &amp; Compass</h3><p>How people found their way before screens and satellites.</p></div></div>
+</div></section>
+
+<section><span class="tag">Simple &amp; Convenient</span><h2>See What’s Available</h2>
+<p>Discover Quality Choices in three easy reading styles, each written to be short and clear.</p>
+<div class="g">
+<div class="st"><h3>Short Reads</h3><p>Five-minute articles you can finish in a single sitting.</p></div>
+<div class="st"><h3>Picture Guides</h3><p>Simple drawings that explain a place or a custom at a glance.</p></div>
+<div class="st"><h3>Quick Facts</h3><p>Small notes to remember about each region and its people.</p></div>
+</div></section>
+
+<section><div class="two">
+<svg viewBox="0 0 400 280" style="border:3px solid var(--fg);border-radius:6px"><rect width="400" height="280" fill="#1c7a78"/><circle cx="200" cy="140" r="96" fill="#fff8e6"/><g stroke="#1c7a78" stroke-width="3" fill="none"><ellipse cx="200" cy="140" rx="40" ry="96"/><path d="M104 140h192M118 90h164M118 190h164"/></g><path d="M250 60l30-24M60 230l30-10" stroke="#f4b942" stroke-width="5" stroke-linecap="round"/><path d="M330 220q20-30 0-60" stroke="#f4b942" stroke-width="5" fill="none" stroke-linecap="round"/></svg>
+<div><span class="tag">Find Your Next Favorite</span><h2>Discover Your Next Pick</h2>
+<p>At Boveli, Your Choice, Your Way means you pick the subject and the pace. Find Your Best Match, or Find Your Perfect Match, among short guides, travel notes and simple lessons, and Look What’s New each week.</p>
+<p>Your Search Ends Here when curiosity leads the way. Worth a Look Today: one short article, one new idea.</p></div></div></section>
+
+<section><span class="tag">Explore Our Latest Offers</span><h2>Find What You Need</h2>
+<p>Find the Right Solution to everyday geography questions with these short reading guides.</p>
+<div class="g">
+<div class="st"><h3>Why Do We Have Time Zones?</h3><p>How the turning Earth led people to share clocks across regions.</p></div>
+<div class="st"><h3>How Do Maps Show Height?</h3><p>Contour lines and colors explained in plain language.</p></div>
+<div class="st"><h3>Why Do Seasons Change?</h3><p>The tilt of the Earth and its journey around the sun.</p></div>
+<div class="st"><h3>What Is a Monsoon?</h3><p>Seasonal winds and the rains that shape life in many lands.</p></div>
+</div></section>
+
+<section id="steps"><span class="tag">Discover Something New</span><h2>Make Every Click Count</h2>
+<p>Learn More Online with four simple steps. Get Started Today.</p>
+<div class="g">
+<div class="st"><i>01</i><h3>Pick a Place</h3><p>Begin with a region or custom you are curious about.</p></div>
+<div class="st"><i>02</i><h3>Read Calmly</h3><p>Take your time. Slow reading helps facts settle in memory.</p></div>
+<div class="st"><i>03</i><h3>Write One Line</h3><p>Summarise the main idea in your own words.</p></div>
+<div class="st"><i>04</i><h3>Look Again</h3><p>Return after a few days and see how much you remember.</p></div>
+</div></section>
+
+<section id="inside"><div class="art"><span class="tag">Quality You Can Trust</span><h2>See What’s Inside: Why Places Matter</h2>
+<p>Every place has a story. The shape of the land, the climate and the people who settled there all shape how life is lived. Reading about other regions widens our view and makes our own home feel more connected to the world.</p>
+<blockquote>To know the world, begin by knowing one new place.</blockquote>
+<h3>Geography explains daily life</h3>
+<p>Rivers decide where towns grow, mountains guide trade routes, and coasts invite fishing and sailing. Many everyday customs began as simple answers to the land around them.</p>
+<h3>Journeys connect people</h3>
+<p>Roads, railways and sea routes carried goods, ideas and recipes between regions. Traveling through books shows how much we share across distances.</p>
+<h3>Festivals keep memory alive</h3>
+<p>Songs, colors and special foods pass history from one generation to the next. Learning why a festival exists helps us respect it more.</p>
+<h3>Curiosity is the best map</h3>
+<p>You do not need to travel far to learn about the world. Explore New Possibilities by choosing one country each month and reading a little about its land and people.</p></div></section>
+
+<section id="faq"><div class="art"><span class="tag">Explore Your Options</span><h2>Questions Readers Ask</h2>
+<details><summary>What is Boveli?</summary><p>It is a reading and learning space with simple articles about cities, islands, deserts, festivals, journeys and maps.</p></details>
+<details><summary>Where should I begin?</summary><p>Open any topic that sounds interesting and read one short piece. There is no fixed order.</p></details>
+<details><summary>How much time do I need?</summary><p>Ten minutes a day is enough. Small, regular sessions work better than rare long ones.</p></details>
+<details><summary>Does it work on my phone?</summary><p>Yes. The page fits phones, tablets and computers and follows your light or dark screen setting.</p></details>
+</div></section>
+
+<section><div class="band"><span class="tag">A New Choice Awaits</span><h2>Make A Choice Today</h2>
+<p>Learning is a series of small decisions. Find Something Better to do with a spare ten minutes, and Explore What’s New inside Boveli whenever you like. Explore New Choices, then Discover More Options.</p>
+<div class="pills"><span>Discover New Options</span><span>Find Your Best Match</span><span>Look What’s New</span><span>There’s More to Explore</span><span>Explore What’s Trending</span><span>See What Everyone Loves</span><span>Explore. Choose. Enjoy.</span><span>Visit Our Website Today</span></div></div></section>
+
+<section><div class="art"><span class="tag">Take a Look Today</span><h2>Simple Reading Habits</h2>
+<ul class="l"><li>Read about one new place each week.</li><li>Find it on a map and note what surprises you.</li><li>Keep a small notebook of things you learn.</li><li>Read the story behind one festival or custom.</li><li>Share one new fact with a friend or family member.</li></ul></div></section>
+
+<section style="text-align:center"><h2>Ready to Discover More?</h2>
+<p>Boveli is here whenever you want to read, learn and grow.</p>
+<a class="btn" href="#collection">Make Your Next Move</a></section>
+
+<footer>© Boveli · A place to read and learn</footer>
+</div></body></html>
